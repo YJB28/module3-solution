@@ -5,18 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>Food LLC</title>
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="brand">Food, LLC</div>
-        <div class="dropdown">
-            <ul>
-                <li>Chicken</li>
-                <li>Beef</li>
-                <li>Sushi</li>
-            </ul>
+    <nav class="navbar" id="top">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+            </button>
+                <a class="navbar-brand" href="#">Food, LLC</a>
+            </div>
+
+            <div class="collapse" id="myNavbar">
+                <ul class="nav navbar-nav visible-xs">
+                    <li><a class="menu-item" href="#">Chicken</a></li>
+                    <li><a class="menu-item" href="#">Beef</a></li>
+                    <li><a class="menu-item" href="#">Sushi</a></li>
+                </ul>
+            </div>
+
         </div>
     </nav>
 
@@ -26,8 +39,8 @@
         </div>
         <div class="row">
             <div class="dish cl-lg-4 cl-md-6 cl-sm-12">
-                <!-- <h2>Chicken</h2> -->
-                <p> Lorem ipsum cxcxcxcdolor sit amet, consectetur adipiscing elit. Sed ut mi non justo sagittis hendrerit sit amet eu tellus. Duis porttitor nec sapien nec faucibus. Aenean sit amet purus a augue pretium accumsan. Nullam viverra nisi nunc, non scelerisque
+                <p class="dish-name">Chicken</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mi non justo sagittis hendrerit sit amet eu tellus. Duis porttitor nec sapien nec faucibus. Aenean sit amet purus a augue pretium accumsan. Nullam viverra nisi nunc, non scelerisque
                     nunc fringilla in. Vivamus malesuada arcu nec purus convallis rhoncus sed cursus augue. Donec maximus et velit ac sodales. In non imperdiet ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                     Curabitur laoreet velit urna, vel efficitur nunc blandit et. Vestibulum pulvinar urna vitae dui viverra vehicula. Praesent ac aliquam sapien. Proin pellentesque auctor malesuada. Maecenas semper risus a sem cursus porta. Sed blandit
                     dolor eu ex fermentum sagittis. Phasellus orci sapien, viverra vitae velit vitae, imperdiet placerat lacus. In lobortis eget magna ut porttitor. Quisque aliquam justo eros, non tempor odio rhoncus elementum. Phasellus iaculis commodo
@@ -37,7 +50,7 @@
             </div>
 
             <div class="dish cl-lg-4  cl-md-6 cl-sm-12">
-                <!-- <h2>Beef</h2> -->
+                <p class="dish-name">Beef</p>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mi non justo sagittis hendrerit sit amet eu tellus. Duis porttitor nec sapien nec faucibus. Aenean sit amet purus a augue pretium accumsan. Nullam viverra nisi nunc, non scelerisque
                     nunc fringilla in. Vivamus malesuada arcu nec purus convallis rhoncus sed cursus augue. Donec maximus et velit ac sodales. In non imperdiet ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                     Curabitur laoreet velit urna, vel efficitur nunc blandit et. Vestibulum pulvinar urna vitae dui viverra vehicula. Praesent ac aliquam sapien. Proin pellentesque auctor malesuada. Maecenas semper risus a sem cursus porta. Sed blandit
@@ -48,13 +61,13 @@
             </div>
 
             <div class="dish cl-lg-4  cl-md-12 cl-sm-12">
-                <!-- <h2>Sushi</h2> -->
+                <p class="dish-name">Sushi</p>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mi non justo sagittis hendrerit sit amet eu tellus. Duis porttitor nec sapien nec faucibus. Aenean sit amet purus a augue pretium accumsan. Nullam viverra nisi nunc, non scelerisque
                     nunc fringilla in. Vivamus malesuada arcu nec purus convallis rhoncus sed cursus augue. Donec maximus et velit ac sodales. In non imperdiet ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                     Curabitur laoreet velit urna, vel efficitur nunc blandit et. Vestibulum pulvinar urna vitae dui viverra vehicula. Praesent ac aliquam sapien. Proin pellentesque auctor malesuada. Maecenas semper risus a sem cursus porta. Sed blandit
                     dolor eu ex fermentum sagittis. Phasellus orci sapien, viverra vitae velit vitae, imperdiet placerat lacus. In lobortis eget magna ut porttitor. Quisque aliquam justo eros, non tempor odio rhoncus elementum. Phasellus iaculis commodo
                     turpis, et imperdiet lorem ultricies eu. Phasellus blandit nulla augue, id semper nisl viverra cursus. Proin finibus, tellus eget ullamcorper tristique, enim elit sollicitudin elit, ac tincidunt velit magna rhoncus magna. Duis in sem
-                    mauris. Proin semper auctor metus, et dapibus eros elementum in. Nunc vel arcu ut augue convallis volutpat quis sit amet urnasasasassss.
+                    mauris. Proin semper auctor metus, et dapibus eros elementum in. Nunc vel arcu ut augue convallis volutpat quis sit amet urna.
                 </p>
             </div>
 
@@ -62,6 +75,9 @@
         </div>
 
     </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
