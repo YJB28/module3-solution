@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background-color: gray;
+    width: 100%;
+    color: black;
+    padding: 0px;
+    border-bottom: 2px black solid;
+    border-top: 2px black solid;
+}
+
+.brand {
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.row {
+    width: 100%;
+}
+
+.dish {
+    padding: 20px;
+}
+
+@media (min-width: 992px) {
+    .cl-lg-4 {
+        width: 30%;
+        display: inline-flex;
+        background-color: gray;
+        margin: 1%;
+    }
+    .dropdown ul {
+        list-style: none;
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .cl-md-6 {
+        width: 45%;
+        float: left;
+        background-color: gray;
+        margin: 2.5%;
+    }
+    .cl-md-12 {
+        width: 95%;
+        float: left;
+        background-color: gray;
+        margin: 1% 2.5%;
+    }
+    .dropdown ul {
+        list-style: none;
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .cl-sm-12 {
+        width: 90%;
+        float: left;
+        background-color: gray;
+        margin: 15px 30px;
+    }
+    .dropdown ul {
+        list-style: none;
+        visibility: collapse;
+    }
+}
